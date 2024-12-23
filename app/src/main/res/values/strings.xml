@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cafe-fe</string>
+    <string name="title_activity_main_menu">MainActivityMenu</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Корзина</string>
+    <string name="title_notifications">Избранное</string>
+</resources>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "269620947522",
+    "firebase_url": "https://cafefe-9a93f-default-rtdb.firebaseio.com",
+    "project_id": "cafefe-9a93f",
+    "storage_bucket": "cafefe-9a93f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269620947522:android:e7746a2fcc179af243dbdb",
+        "android_client_info": {
+          "package_name": "com.example.cafe3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIXE5b99Vui2gdcih-tJ0kIw9frC0XVFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269620947522:android:1472c0496053c28043dbdb",
+        "android_client_info": {
+          "package_name": "com.example.cafe4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIXE5b99Vui2gdcih-tJ0kIw9frC0XVFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

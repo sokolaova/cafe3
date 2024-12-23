@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:backgroundTint="#FDFDFD"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/nexa_bold"
+        android:onClick="onRegisterButtonClick"
+        android:text="Зарегистрироваться"
+        android:textColor="#6A3601"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="#60701F"
+        android:fontFamily="@font/nexa_bold"
+        android:shadowColor="#161616"
+        android:text="Войти"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.791" />
+
+    <TextView
+        android:id="@+id/password_text2"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="212dp"
+        android:fontFamily="@font/nexa_bold"
+        android:text="введите пароль:"
+        android:textAlignment="center"
+        android:textColor="#60711F"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <TextView
+        android:id="@+id/registr2"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:fontFamily="@font/nexa_bold"
+        android:text="Добро пожаловать в кофейню Cafe-fe"
+        android:textAlignment="center"
+        android:textColor="#6B3601"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="328dp"
+        android:fontFamily="@font/nexa_bold"
+        android:text="введите email:"
+        android:textAlignment="center"
+        android:textColor="#60711F"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registr2"
+        app:layout_constraintVertical_bias="0.131" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="248dp"
+        android:contentDescription="введите почту"
+        android:ems="10"
+        android:fontFamily="@font/nexa_bold"
+        android:hint="электронный адрес с @"
+        android:inputType="textEmailAddress"
+        android:textColor="#202426"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_text"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:contentDescription="введите пароль"
+        android:ems="10"
+        android:fontFamily="@font/nexa_bold"
+        android:hint="пароль не менее 8 символов"
+        android:inputType="textPassword"
+        android:textColor="#202426"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_text2"
+        app:layout_constraintVertical_bias="0.056" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
